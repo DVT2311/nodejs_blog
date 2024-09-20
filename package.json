@@ -1,0 +1,33 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start" : "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DVT2311/nodejs_blog.git"
+  },
+  "keywords": [
+    "blog",
+    "hoc",
+    "f8",
+    "f8",
+    "blog"
+  ],
+  "author": "TamDinh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DVT2311/nodejs_blog/issues"
+  },
+  "homepage": "https://github.com/DVT2311/nodejs_blog#readme",
+  "dependencies": {
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.6"
+  }
+}
