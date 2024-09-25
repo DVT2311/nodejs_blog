@@ -29,6 +29,9 @@
   "lint-staged": {
     "src/**/*.{js,json,scss}": "prettier --write --single-quote --tab-width 4 --trailing-comma all"
   },
+  "hooks": {
+    "pre-commit": "lint-staged"
+  },
   "dependencies": {
     "express": "^4.21.0",
     "express-handlebars": "^8.0.1"

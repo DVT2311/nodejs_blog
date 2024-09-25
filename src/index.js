@@ -7,10 +7,14 @@ const port = 3000;
 
 const route = require('./routes');
 
-app.use(express.static(path.join(__dirname, 'public')));
+    app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(
+
+
     express.urlencoded({
+
+      
         extended: true,
     }),
 );
