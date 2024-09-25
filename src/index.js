@@ -11,10 +11,9 @@ const route = require('./routes');
 
 app.use(
 
-
     express.urlencoded({
 
-      
+
         extended: true,
     }),
 );
